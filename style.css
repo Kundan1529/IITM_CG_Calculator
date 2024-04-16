@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ##########html element styling####### */
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7;
+  background-color: #b2aeae;
+
+
+}
+
+.main {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  ;
+  /* Set a minimum height for the form */
+  max-height: fit-content;
+  /* Set a maximum height for the form */
+
+  /* Add vertical scroll if content exceeds max-height */
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1rem;
+  border-radius: 0.6rem;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.container {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 12px;
+
+}
+
+.sect,
+.opt {
+  width: 60%;
+  height: 3rem;
+  border-radius: 0.4rem;
+  text-align: center;
+  margin: auto;
+}
+
+
+
+.gpa,
+.nom {
+  display: contents;
+  font-size: 2.5rem;
+  font-weight: 12px;
+
+}
+
+.gpa,
+.number {
+  width: 95%;
+  height: 3rem;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 0 3px;
+  text-align: center;
+
+}
+
+.sbmt,
+.sumbit {
+  margin: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+.sumbit {
+  width: 25%;
+  height: 3rem;
+  text-align: center;
+  background-color: #8a1972;
+  border-radius: 0.5rem;
+  color: white;
+}

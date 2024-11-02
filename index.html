@@ -6,11 +6,11 @@
   <meta name="viewport" content="width=device-width">
   <title>IITM CGPA Calculator</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <script src="script.js" defer></script>
+  <script src="index.js" defer></script>
 </head>
 
 <body>
-  <form class="main" id="main1">
+  <form class="main" id="main1" >
     <header>
       <img src="iitmadraslogo.png" alt="IIT Madras Logo" width="100px">
     </header>
@@ -18,48 +18,30 @@
     <div class="container" id="mainContainer">Select option:
       <select class="sect" id="selectoption">
         <option value=""></option>
-         <Option value="GPA"> GPA  </Option>
-         <Option value="CGPA"> CGPA </Option>
+        <Option value="GPA"> GPA </Option>
+        <Option value="CGPA"> CGPA </Option>
       </select>
       <br>
     </div>
 
 
     <div class="gpa" id="gpa1">
-      
-        <label for="course" class="nom">Number of courses:</label>
-        <br>
-        <input type="number" id="course" class="number" name="course" min='0' max="8">
-      
-      <span style="display: none;" class="visible ">
-        <label for="course" class="nom">Cretid for Course 1:</label>
-        <br>
-        <input type="number" id="course0" class="number" name="course">
+
+      <label for="course" class="nom" id="gpa2">Number of courses:</label>
+      <br>
+      <input type="number" id="course" class="number" name="course" min='1' max="7">
 
 
-      </span>
-      <span style="display: none;" class="visible">
-        <label for="course" class="nom">Grade Obtained</label>
-        <br>
-        <select id="course1" class="sect">
-          <option>S</option>
-          <option>A</option>
-          <option>B</option>
-          <option>C</option>
-          <option>D</option>
-          <option>E</option>
-        </select>
-
-      </span>
-
-
-      
-
+      <!-- <div class="nom""></div> -->
+      <!-- <div class=" number"></div> -->
     </div>
     <br>
-    <div class="sbmt">
-      <input type="submit" class="sumbit" value="Calculate">
+    <div class="sbmt" >
+      <input type="submit" class="sumbit" value="Calculate" id ="calculate">
+      <br>
+       <input type = "submit" class = "sumbit" value = "refresh">
     </div>
+
 
 
   </form>
